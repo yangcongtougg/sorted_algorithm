@@ -54,8 +54,9 @@ def bubble_sort2(arr):
 
 
 # test
-
-a = [123, 2334, 4, 5, 6456, 23421, 6776, 8, 990, 123909, 1, 0]
-
-bubble_sort2(a)
-print(a)
+if __name__ == "__main__":
+    arr = [123, 3123, 123123123, 45, 9, 0, 6, 454, 23432547, 657463453, 4645, 12, 21, 3, 43078, 2346767]
+    print(arr)  # 没变
+    new_arr = bubble_sort(arr)
+    print(arr)  # 变了
+    print(new_arr)  # 新列表
