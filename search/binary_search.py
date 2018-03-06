@@ -32,7 +32,6 @@ def binary_search(arr, item):
 def binary_search_2(arr, item):
     """二分查找非递归版本
         主要起始位置的下标来确定中间元素
-        复杂度
     """
     n = len(arr)
     first_point = 0
