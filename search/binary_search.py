@@ -52,4 +52,4 @@ if __name__ == '__main__':
     a = [0, 0, 3, 6, 9, 12, 21, 45, 123, 454, 3123, 4645, 43078, 2346767, 23432547, 123123123, 657463453]
     print(binary_search(a, 43078))
     print('*'*23)
-    print(binary_search_2(a, 43078))
+    print(binary_search_2(a, 2))
